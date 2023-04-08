@@ -39,7 +39,13 @@ Curso de Django da [Udemy](https://www.udemy.com/course/curso-de-django-web-fram
 
 
 * Copiar a chave pública criada para colar nas configurações de [chaves](https://github.com/settings/keys)
+
     `$cat ~/.ssh/id_rsa.pub`
 
 
-*
+* Ir até o github do projeto e copiar o endereço, em seguida adicioná-lo ao diretório local
+
+    `$git remote add origin <<endereço_projeto>>`
+
+    Ex.: `$git remote add origin git@github.com:jonassonjp/cursodjango.git`
+
