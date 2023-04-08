@@ -13,5 +13,33 @@ Curso de Django da [Udemy](https://www.udemy.com/course/curso-de-django-web-fram
 `$pip install pytest`
 
 `$pip install pip setuptools wheel --upgrade`
- install autopep8
 
+`$install autopep8`
+
+### Configurando o Git/Github
+
+* Acessar o [github.com](https://github.com) e criar conta
+
+* Criar um repositório no Github
+
+* Colocar um nome, pode deixar público e criar em __Criar Repositório__
+
+* Configurando o git local
+    `$ git conifg user.name "<<Seu Nome>>"`
+
+    `$ git conifg user.email "<<Seu Email>>"` (deve ser o mesmo que usou para criar a conta do github)
+
+    `$ git conifg init.defaultBranch main`
+
+    `$git init`
+
+
+* Uma vez iniciado o git localmente, é necessário criar um par de chaves. Caso já tenha as chaves de outro projeto pode pular esta etapa. 
+    `$ssh-keygen`
+
+
+* Copiar a chave pública criada para colar nas configurações de [chaves](https://github.com/settings/keys)
+    `$cat ~/.ssh/id_rsa.pub`
+
+
+*
