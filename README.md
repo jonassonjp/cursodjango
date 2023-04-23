@@ -27,9 +27,9 @@ Curso de Django da [Udemy](https://www.udemy.com/course/curso-de-django-web-fram
 * Configurando o git local
     `$ git conifg user.name "<<Seu Nome>>"`
 
-    `$ git conifg user.email "<<Seu Email>>"` (deve ser o mesmo que usou para criar a conta do github)
+    `$ git config user.email "<<Seu Email>>"` (deve ser o mesmo que usou para criar a conta do github)
 
-    `$ git conifg init.defaultBranch main`
+    `$ git config init.defaultBranch main`
 
     `$git init`
 
